@@ -1,0 +1,7 @@
+%
+list{ size = [55]; color = [32, 16, 255]; font = [Times] }
+text{ size = [12]; color = [0, 0, 0]; font = [Ariel] }
+/%
+~
+"hello"
+/~

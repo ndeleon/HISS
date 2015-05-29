@@ -1,0 +1,32 @@
+Code should have a database of what certain HISS language tokens are, 
+and what they convert to in HTML and CSS. If this is possible, maybe using some sort of 
+data matching systm to compare what you have and convert it to the HTML and CSS that it
+finds. 
+
+An example migt be something like this:
+
+
+%[
+text[12, 0 , Helvetica]
+]%
+~[
+"hello"
+]~
+
+
+// codes to somehow:
+
+<!DOCTYPE html>
+<html>
+	<style>
+		p {
+			font-size: 12px;
+			color: #000000;
+			font-family: helvetica;
+		}
+	</style>
+	<p> hello </p>
+</html>
+
+If I did something like having a text file with all of the syntax of HTML and CSS,
+and what HISS syntax codes to in HTML.
